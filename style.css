@@ -48,5 +48,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+.profile__text {
+  text-align: end;
+  font-weight: 600;
+  line-height: 1em;
+  color: #555;
+}
+.profile__text p {
+  font-size: 0.75em;
+  color: #777;
+  margin-top: 5px;
+}
+.img-box {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #2196f3;
+  border-radius: 50%;
+  overflow: hidden;
 }
